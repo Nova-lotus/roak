@@ -1,0 +1,49 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+/* Style the header */
+h1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+}
+
+/* Style the button */
+#generateButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#generateButton:hover {
+    background-color: #45a049;
+}
+
+/* Style the kindness suggestion text */
+#kindnessSuggestion {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* Center elements horizontally */
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
