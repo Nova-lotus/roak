@@ -2,7 +2,8 @@ const generateButton = document.getElementById("generateButton");
 const kindnessSuggestion = document.getElementById("kindnessSuggestion");
 const kindnessSuggestions = [
     "Hold the door open for someone.",
-    // ... rest of the suggestions ...
+    "Pay for a stranger's coffee or meal.",
+    // ... all the other suggestions ...
     "Offer your time to assist a local community center with programs for youth and families.",
 ];
 
